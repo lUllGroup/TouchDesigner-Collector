@@ -6,6 +6,23 @@ Drag and drop the tox file into your project. Open the parameters window and go 
 
 Once you click 'Copy', because there is no threading, TouchDesigner will look like it is frozen, but Windows is copying in the background. Sit tight, and wait for TouchDesigner to respond. All status messages will be printed out to the Textport when all the copying is complete.
 
+You'll have to relink all your files on the other side, unfortunately, but this is a quick way to make sure if you're moving systems you don't forget any assets like fonts, etc.
+
+##Supported Operators
+The OP Find DAT in this searches for the following Operators:
+
+- File In CHOP
+- Audio File In CHOP
+- Movie File In TOP
+- SVG In TOP
+- Text TOP
+- File In SOP
+- Font SOP
+- Text SOP
+- Table DAT
+- Text DAT
+- File In DAT
+
 ##Build and version
 Tested on TouchDesigner 088 64-bit build 58910.
 
